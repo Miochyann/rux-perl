@@ -1,9 +1,12 @@
-alloc
 paging
-fs
-virtio-9p
+alloc 
+irq
 musl
-poll
 multitask
+fs
 pipe
-multitask
+poll
+rtc
+signal
+virtio-9p
+pipe

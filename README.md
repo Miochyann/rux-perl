@@ -7,7 +7,6 @@ Run [Ruxos](https://github.com/syswonder/ruxos)
   Go to ruxos Root dir and run:
   
 ```bash
-bash
 git clone https://github.com/Miochyann/rux-perl.git ./apps/c/rux-perl
 make A=apps/c/rux-perl ARCH=aarch64 V9P=y NET=y MUSL=y LOG=info SMP=1 run
 ```
@@ -39,3 +38,4 @@ make A=apps/c/rux-perl ARCH=aarch64 V9P=y NET=y MUSL=y LOG=info SMP=1 run
 ```bash
 sh apps/c/rux-perl/test_perl.sh
 ```
+The test results will be saved in /rux-perl/test_result.txt
